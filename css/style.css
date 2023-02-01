@@ -118,48 +118,13 @@ footer {
 
 @media (min-width: 1200px){
 
-.grilla-ps2{
-    grid-area: titulops2 ;
-}    
-.grilla-ps3{
-    grid-area: titulops3;
-}
-.grilla-ps4{
-    grid-area: titulops4;
-}
-.img2{
-    grid-area: img2;
-}
-.img3{
-    grid-area: img3;
-}
-.img4{
-    grid-area: img4;
-}
-.txt2{
-    grid-area: txt2;
-}
-.txt3{
-    grid-area: txt3;
-}
-.txt4{
-    grid-area: txt4;
-}
-
-.grilla {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-columns: 40% auto 30%;
-    grid-template-rows: 100px 2fr 2fr 100px ;
-    grid-template-areas: 
-    titulops2 titulops2
-    img2      txt2
-    titulops3 titulops3
-    img3      txt3
-    titulops4 titulops4
-    img4      txt4;
-    gap: 10px;
+.juegos{
+    width: 800px;
+    height: 1900px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 400px;
     
 }
 
